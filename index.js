@@ -15,6 +15,14 @@ app.get('/', (req, res) => {
 app.get('/about', (req, res) => {
   res.send('This is my about route..... ')
 })
-
+app.get('/users', (req, res) => {
+  res.send('This is my about route..... ')
+})
+app.get('/products', (req, res) => {
+  res.send('This is my about route..... ')
+})
+app.get('/categories', (req, res) => {
+  res.send('This is my about route..... ')
+})
 // Export the Express API
 module.exports = app
